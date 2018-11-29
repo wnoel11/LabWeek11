@@ -63,12 +63,12 @@ namespace LabWeek11
 
             for (int z = 0; z < randomNumber.Length; z++)
             {
-                randomNumber[z] = random.Next(0, 100);
+                randomNumber[z] = random.Next(0, 1000);
             }
 
-            foreach (int z in randomNumber)
+            foreach (int a in randomNumber)
             {
-                Console.WriteLine(z.ToString());
+                Console.WriteLine(a.ToString());
             }
         }
     }
