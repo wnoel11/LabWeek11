@@ -21,38 +21,37 @@ namespace LabWeek11
 
             //#2
 
-              string[] month = new string[12];
-                month[0] = "January";
-                month[1] = "February";
-                month[2] = "March";
-                month[3] = "April";
-                month[4] = "May";
-                month[5] = "June";
-                month[6] = "July";
-                month[7] = "August";
-                month[8] = "September";
-                month[9] = "October";
-                month[10] = "November";
-                month[11] = "December";
+              string[] months = new string[12];
+                months[0] = "January";
+                months[1] = "February";
+                months[2] = "March";
+                months[3] = "April";
+                months[4] = "May";
+                months[5] = "June";
+                months[6] = "July";
+                months[7] = "August";
+                months[8] = "September";
+                months[9] = "October";
+                months[10] = "November";
+                months[11] = "December";
            
          
-                    for (int i = 0; i < month.Length; i++)
+                    for (int i = 0; i < months.Length; i++)
                     {
-                    Console.WriteLine(i.ToString() + month[i]);
+                    Console.WriteLine((i + 1) + " " + months[i]);
                     }
                 
-             
-            Console.ReadLine();
+         Console.ReadLine();
                                 
 
             //#3
 
             string[] seasons = {"Spring", "Summer", "Fall", "Winter"};
-            int y = 0;
+           
 
-            for (y = 0; y < seasons.Length; y++)
+            foreach (string value in seasons)
             {
-                Console.WriteLine(seasons[y]);
+                Console.WriteLine(value);
             }
 
             Console.ReadLine();
