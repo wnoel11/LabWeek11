@@ -63,7 +63,7 @@ namespace LabWeek11
 
             for (int z = 0; z < randomNumber.Length; z++)
             {
-                randomNumber[z] = random.Next(0, 1000);
+                randomNumber[z] = random.Next(0, 100);
             }
 
             foreach (int a in randomNumber)
